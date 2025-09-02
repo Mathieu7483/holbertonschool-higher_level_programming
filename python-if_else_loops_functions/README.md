@@ -1,8 +1,9 @@
-🐍 Projet : If/Else, Boucles et Fonctions
-📖 Contexte du projet
+# 🐍 Projet : If/Else, Boucles et Fonctions
+
+# 📖 Contexte du projet
 Ce projet a pour but de te familiariser avec les outils essentiels du flux de contrôle et la création de fonctions en Python. Nous allons explorer comment Python gère la prise de décision avec les instructions conditionnelles (if, else) et comment il exécute des blocs de code de manière répétitive avec les boucles (while, for). Nous aborderons également la notion de fonctions, qui sont le fondement d'un code modulaire et réutilisable.
 
-📚 Ressources
+# 📚 Ressources
 More Control Flow Tools (jusqu'à la section "4.6. Defining Functions" incluse)
 
 IndentationError
@@ -15,7 +16,7 @@ Pycodestyle – Style Guide for Python Code
 
 Aide en ligne de commande : man python3 ou python3 --help
 
-🎯 Objectifs d'apprentissage
+# 🎯 Objectifs d'apprentissage
 À la fin de ce projet, tu seras capable d'expliquer, sans l'aide de Google :
 
 L'importance de l'indentation en Python.
@@ -46,7 +47,7 @@ Ce qu'est un traceback.
 
 Les opérateurs arithmétiques.
 
-⚙️ Exigences
+# ⚙️ Exigences
 Éditeurs Autorisés : vi, vim, emacs.
 
 Interprète : Tous les fichiers seront interprétés sur Ubuntu 20.04 LTS avec python3 (version 3.8.*).
@@ -63,7 +64,7 @@ Taille de fichier : La taille de tes fichiers sera testée avec wc.
 
 Documentation : Un fichier README.md est obligatoire à la racine du dossier du projet.
 
-✅ Tâches réalisées
+# ✅ Tâches réalisées
 0. Positive anything is better than negative nothing ➕
 Description : Compléter un script pour déterminer et imprimer si un nombre aléatoire est positif, négatif ou nul.
 
@@ -129,5 +130,5 @@ Description : Écrire une fonction fizzbuzz() qui imprime les nombres de 1 à 10
 
 Fichier : 12-fizzbuzz.py
 
-👤 Auteur
+# 👤 Auteur
 Mathieu Godalier
