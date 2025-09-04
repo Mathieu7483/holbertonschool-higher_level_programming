@@ -1,4 +1,4 @@
-<img src=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/variables-python.jpg>
+<img src=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/Python%20n%C3%A9on.png>
 
 # 🐍 Projet : Python - Hello, World
 
