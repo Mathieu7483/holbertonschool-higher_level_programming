@@ -44,4 +44,4 @@ Exécutabilité : Tous les fichiers doivent être exécutables.
 Fichier README.md : Un README.md à la racine du dépôt et à la racine du projet est obligatoire.
 
 # ✍️ Auteur
-[Mathieu Godalier](https://github.com/Mathieu7483) - Students in programming at Holberton School
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
