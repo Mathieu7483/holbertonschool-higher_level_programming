@@ -46,48 +46,68 @@ Taille de fichier : La taille de tes fichiers sera testée avec wc.
 
 Documentation : Un fichier README.md est obligatoire à la racine du dossier du projet.
 
+
 # ✅ Tâches réalisées
 
-0. Import a simple function from a simple file
-Description :Write a program that imports the function def add(a, b): from the file add_0.py and prints the result of the addition 1 + 2 = 3
-Fichier : [0-add.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/0-add.py)
+## 0. Import a simple function
+📄 [0-add.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/0-add.py)  
+👉 Importe `add(a, b)` depuis `add_0.py` et affiche `1 + 2 = 3`.
 
-1.  My first toolbox!
-Description : Write a program that imports functions from the file calculator_1.py, does some Maths, and prints the result.
-Fichier : [1-calculation.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/1-calculation.py)
+---
 
-2. How to make a script dynamic!
-Description : Write a program that prints the number of and the list of its arguments.
-Fichier : [2-args.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/2-args.py)
+## 1. My first toolbox!
+📄 [1-calculation.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/1-calculation.py)  
+👉 Utilise `calculator_1.py` pour effectuer des opérations mathématiques de base.
 
-3. Infinite addition
-Description : Write a program that prints the result of the addition of all arguments
-Fichier : [3-infinite_add.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/3-infinite_add.py)
+---
 
-4. Who are you? 
-Description :Write a program that prints all the names defined by the compiled module hidden_4.pyc (please download it locally in your sandbox using curl).
-Fichier : [4-hidden_discovery.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/4-hidden_discovery.py)
+## 2. How to make a script dynamic!
+📄 [2-args.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/2-args.py)  
+👉 Affiche le nombre d’arguments passés au script ainsi que leur liste.
 
-5. Everything can be imported 
-Description :Write a program that imports the variable a from the file variable_load_5.py and prints its value.
-Fichier : [5-variable_load.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/5-variable_load.py)
+---
 
-100. Build my own calculator!
-Description : Program that imports functions from calculator_1.py to perform basic operations (+, -, *, /) with argument validation and error handling.
-Fichier : [100-my_calculator.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/100-my_calculator.py)
+## 3. Infinite addition
+📄 [3-infinite_add.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/3-infinite_add.py)  
+👉 Additionne tous les arguments passés au programme.
 
-102. Easy print
-Description : Program that prints #pythoniscool in one line, without using print, eval, open, or sys.
-Fichier : [101-easy_print.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/101-easy_print.py)
+---
 
-103. ByteCode -> Python #3
-Description : Function magic_calculation(a, b) replicates given Python bytecode logic using imports, conditionals, and a loop.
-Fichier : [102-magic_calculation.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/102-magic_calculation.py)
+## 4. Who are you?
+📄 [4-hidden_discovery.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/4-hidden_discovery.py)  
+👉 Affiche tous les noms définis dans le module compilé `hidden_4.pyc`.
 
-104. Fast alphabet
-Description : Program that prints the uppercase alphabet in three lines or less, without loops, conditionals, or string literals.
-Fichier : [103-fast_alphabet.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/103-fast_alphabet.py)
+---
+
+## 5. Everything can be imported
+📄 [5-variable_load.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/5-variable_load.py)  
+👉 Importe la variable `a` depuis `variable_load_5.py` et affiche sa valeur.
+
+---
+
+## 6. Build my own calculator!
+📄 [100-my_calculator.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/100-my_calculator.py)  
+👉 Calculatrice qui importe `calculator_1.py`, gère les opérations (+, -, *, /), les arguments et les erreurs.
+
+---
+
+## 7. Easy print
+📄 [101-easy_print.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/101-easy_print.py)  
+👉 Affiche `#pythoniscool` en une ligne, sans `print`, `eval`, `open` ou `sys`.
+
+---
+
+## 8. ByteCode → Python #3
+📄 [102-magic_calculation.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/102-magic_calculation.py)  
+👉 Fonction `magic_calculation(a, b)` qui reproduit la logique donnée par du bytecode Python.
+
+---
+
+## 9. Fast alphabet
+📄 [103-fast_alphabet.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-import_modules/103-fast_alphabet.py)  
+👉 Affiche l’alphabet en majuscules en trois lignes ou moins, sans boucles, conditions ni littéraux de chaînes.
 
 
-# 👤 Auteur
-[Mathieu Godalier](https://github.com/Mathieu7483) - Student developer at Holberton School
+
+# ✍️ Auteur
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
