@@ -1,3 +1,8 @@
+<div style="display: flex; justify-content: space-between;">
+<img src=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/variables-python.jpg width="49%">
+<img src=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/python%20(1).png width="49%">
+</div>
+
 # 🐍 Projet : Python - Hello, World
 
 # 📖 Contexte du projet
