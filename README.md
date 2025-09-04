@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: space-between;">
-<img src=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/variables-python.jpg width="49%">
+<img src=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/Python%20n%C3%A9on.png width="49%">
 <img src=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/python%20(1).png width="49%">
 </div>
 
