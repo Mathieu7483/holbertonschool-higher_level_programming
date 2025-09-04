@@ -1,2 +1,6 @@
 #!/usr/bin/python3
-print("".join([chr(122 - i).lower() if i % 2 == 0 else chr(122 - i).upper() for i in range(26)]), end="")
+for i in range(ord("z"), ord("a") - 1, -1):
+    if i % 2 == 0:
+        print("{}".format(chr(i)), end="")
+    else:
+        print("{}".format(chr(i - 32)), end="")
