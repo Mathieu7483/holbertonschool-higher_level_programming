@@ -83,5 +83,5 @@ Description : Récupération et affichage du "Zen de Python" de Tim Peters, en u
 
 Fichiers : [9-easter_egg.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-hello_world/9-easter_egg.py)
 
-# 👤 Auteur
-[Mathieu Godalier](https://github.com/Mathieu7483) - Students in programming at Holberton School
+# ✍️ Auteur
+Mathieu GODALIER- Élève en programmation à la Holberton School
