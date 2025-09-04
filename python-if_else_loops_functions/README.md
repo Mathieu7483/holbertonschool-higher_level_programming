@@ -68,67 +68,78 @@ Documentation : Un fichier README.md est obligatoire à la racine du dossier du 
 0. Positive anything is better than negative nothing ➕
 Description : Compléter un script pour déterminer et imprimer si un nombre aléatoire est positif, négatif ou nul.
 
-Fichier : 0-positive_or_negative.py
+Fichier : [0-positive_or_negative.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/0-positive_or_negative.py)
 
 1. The last digit 🔢
 Description : Compléter un script pour imprimer le dernier chiffre d'un nombre et fournir une description basée sur sa valeur (supérieur à 5, 0, ou inférieur à 6 et non 0).
 
-Fichier : 1-last_digit.py
+Fichier : [1-last_digit.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/1-last_digit.py)
 
 2. I sometimes suffer from insomnia... 🔡
 Description : Écrire un programme qui imprime l'alphabet ASCII en minuscules, sans nouvelle ligne, en utilisant une seule boucle et une seule fonction print().
 
-Fichier : 2-print_alphabet.py
+Fichier : [2-print_alphabet.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/2-print_alphabet.py)
 
 3. When I was having that alphabet soup... 🚫
 Description : Écrire un programme qui imprime l'alphabet ASCII en minuscules, en excluant les lettres q et e.
 
-Fichier : 3-print_alphabt.py
+Fichier : [3-print_alphabt.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/3-print_alphabt.py)
 
 4. Hexadecimal printing ⚙️
 Description : Écrire un programme qui imprime tous les nombres de 0 à 98 en décimal et en hexadécimal.
 
-Fichier : 4-print_hexa.py
+Fichier : [4-print_hexa.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/4-print_hexa.py)
 
 5. 00...99 💯
 Description : Écrire un programme qui imprime les nombres de 0 à 99, séparés par une virgule et un espace, avec un format de deux chiffres.
 
-Fichier : 5-print_comb2.py
+Fichier : [5-print_comb2.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/5-print_comb2.py)
 
 6. Inventing is a combination of brains... 🧠
 Description : Écrire un programme qui imprime toutes les combinaisons uniques de deux chiffres, du plus petit au plus grand, séparées par une virgule et un espace.
 
-Fichier : 6-print_comb3.py
+Fichier : [6-print_comb3.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/6-print_comb3.py)
 
 7. islower 🧐
 Description : Écrire une fonction islower(c) qui retourne True si un caractère est en minuscule et False sinon.
 
-Fichier : 7-islower.py
+Fichier : [7-islower.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/7-islower.py)
 
 8. To uppercase 🗣️
 Description : Écrire une fonction uppercase(str) qui imprime une chaîne de caractères en majuscules.
 
-Fichier : 8-uppercase.py
+Fichier : [8-uppercase.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/8-uppercase.py)
 
 9. There are only 3 colors... 🌈
 Description : Écrire une fonction print_last_digit(number) qui imprime le dernier chiffre d'un nombre et retourne sa valeur.
 
-Fichier : 9-print_last_digit.py
+Fichier : [9-print_last_digit.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/9-print_last_digit.py)
 
 10. a + b ➕
 Description : Écrire une fonction add(a, b) qui additionne deux entiers et retourne le résultat.
 
-Fichier : 10-add.py
+Fichier : [10-add.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/10-add.py)
 
 11. a ^ b 🚀
 Description : Écrire une fonction pow(a, b) qui calcule a à la puissance de b et retourne le résultat.
 
-Fichier : 11-pow.py
+Fichier : [11-pow.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/11-pow.py)
 
 12. Fizz Buzz 💥
 Description : Écrire une fonction fizzbuzz() qui imprime les nombres de 1 à 100 en respectant les règles du jeu FizzBuzz.
 
-Fichier : 12-fizzbuzz.py
+Fichier : [12-fizzbuzz.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-if_else_loops_functions/12-fizzbuzz.py)
 
-# 👤 Auteur
-Mathieu Godalier
+100. Smile in the mirror
+Description : Affiche l’alphabet ASCII en ordre inverse, en alternant minuscules et majuscules, avec une seule boucle et un seul print.
+
+Fichier : [100-print_tebahpla.py]()
+
+102. Remove at position
+Description : Crée une copie d’une chaîne en supprimant le caractère à l’index donné, sans utiliser d’imports.
+
+Fichier : [101-remove_char_at.py]()
+
+
+# ✍️ Auteur
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
