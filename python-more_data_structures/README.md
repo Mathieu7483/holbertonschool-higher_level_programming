@@ -55,9 +55,10 @@ Pour compiler et exécuter les scripts, assurez-vous que les fichiers sont exéc
 
 Exemple pour le fichier 0-main.py :
 
-Bash
+```Bash
 
 ./0-main.py
+```
 
 # 🧑‍💻 Auteur
 
