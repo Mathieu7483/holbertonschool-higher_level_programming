@@ -13,3 +13,5 @@
 *.out
 # Ignorer les fichiers main.c spécifiquement
 *main.py
+# Ignorer les generations de cache
+*__pycache
