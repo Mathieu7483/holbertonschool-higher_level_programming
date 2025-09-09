@@ -26,6 +26,12 @@ Ce répertoire contient les solutions des exercices du projet. Chaque fichier co
 
 6-raise_exception_msg.py : Une fonction qui lève une exception de type NameError avec un message personnalisé.
 
+7- 100-safe_print_integer_err.py : Cette fonction imprime un entier de manière sécurisée. Si la valeur n'est pas un entier, elle renvoie False et affiche le message d'erreur standard sur la sortie d'erreur (stderr), sans interrompre le programme.
+
+8- 101-safe_function.py : Cette fonction exécute une autre fonction de manière sécurisée. Si une exception se produit pendant l'exécution, elle la gère, affiche l'erreur sur stderr et retourne None, permettant ainsi au programme de continuer son exécution sans planter.
+
+9- 102-magic_calculation.py: Cette tâche consiste à reconstruire une fonction Python à partir de son bytecode. L'objectif est de traduire les instructions de bas niveau en code Python fonctionnel, comprenant les boucles, les opérations et la gestion des exceptions.
+
 # 🛠️ Prérequis
 
 Environnement : Ubuntu 20.04 LTS
