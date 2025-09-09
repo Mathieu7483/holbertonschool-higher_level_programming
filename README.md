@@ -49,3 +49,11 @@ Fichier README.md : Un README.md à la racine du dépôt et à la racine du proj
 
 # ✍️ Auteur
 [Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
+
+# ⚖️ Licence
+
+Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier LICENSE.
+
+# 🙏 Remerciements
+
+Ce projet a été réalisé dans le cadre du cursus de programmation de l'École Holberton. Un grand merci pour l'opportunité d'apprendre et de mettre en pratique ces concepts.
