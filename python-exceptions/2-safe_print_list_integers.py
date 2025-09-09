@@ -1,15 +1,11 @@
 #!/usr/bin/python3
-""" Print and count integers """
 def safe_print_list_integers(my_list=[], x=0):
     count = 0
-    try:
-        for i in range(x):
-            try:
-                print("{:d}".format(my_list[i]), end="")
-                count += 1
-            except (ValueError, TypeError):
-                continue
-    except IndexError:
-        pass
+    for i in range(x):
+        try:
+            print("{:d}".format(my_list[i]), end="")
+            count += 1
+        except (ValueError, TypeError):
+            pass
     print()
     return count
