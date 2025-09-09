@@ -39,6 +39,12 @@ Ce répertoire contient les solutions des exercices du projet, avec un fichier p
 
 12-roman_to_int.py : Une fonction qui convertit un nombre romain en entier.
 
+13- 100-weight_average.py : Cette fonction calcule la moyenne pondérée d'une liste de tuples. Chaque tuple contient un score et son poids associé. Elle renvoie 0 si la liste est vide, garantissant un comportement prévisible même avec des entrées vides.
+
+14- 101-square_matrix_map.py : Cette tâche se concentre sur la fonction map. Elle crée une nouvelle matrice en calculant le carré de chaque élément de la matrice d'origine, en utilisant uniquement map et sans boucles, pour montrer une approche de programmation fonctionnelle et concise.
+
+15- 102-complex_delete.py : Cette fonction supprime des clés dans un dictionnaire basées sur leur valeur. Elle itère sur les éléments et supprime toutes les clés qui correspondent à une valeur donnée, ce qui est une opération plus complexe que la simple suppression par clé.
+
 # 🛠️ Prérequis
 
 Environnement : Ubuntu 20.04 LTS
