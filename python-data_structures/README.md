@@ -59,11 +59,8 @@ Bash
 
 ./0-main.py
 
-# 🧑‍💻 Auteur
-
-Mathieu
-
-Mon profil GitHub
+# ✍️ Auteur
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
 
 # ⚖️ Licence
 
