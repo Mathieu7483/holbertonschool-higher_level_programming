@@ -1,4 +1,4 @@
->>> add_integer = import('0-add_integer').add_integer
+>>> add_integer = __import__('0-add_integer').add_integer
 
 # case if it's okay
 >>> add_integer(1, 1)
@@ -12,40 +12,41 @@
 >>> add_integer(-2.2, 0)
 -2
 
-# Case if a or b is a string or char
+# case if a or b is a string
 >>> add_integer(1, "string")
 Traceback (most recent call last):
-...
-TypeError: b must be an integer
+TypeError : b must be an integer
 >>> add_integer("holberton", 5)
 Traceback (most recent call last):
-...
-TypeError: a must be an integer
+TypeError : a must be an integer
+
+# case if a or b is a char
 >>> add_integer("a", 5)
 Traceback (most recent call last):
-...
-TypeError: a must be an integer
+TypeError : a must be an integer
 >>> add_integer(4, "b")
 Traceback (most recent call last):
-...
-TypeError: b must be an integer
+TypeError : b must be an integer
 >>> add_integer("H", "S")
 Traceback (most recent call last):
-...
-TypeError: a must be an integer
+TypeError : a and b must be an integers
+
+# case if we don't have arguments
+>>> add_integer(6.3)
+104
+>>> add_integer()
+Traceback (most recent call last):
+TypeError: add_integer() missing 1 required positional argument: 'a'
 
 # Case if a or b are other invalid types
 >>> add_integer([1, 2], 5)
 Traceback (most recent call last):
-...
 TypeError: a must be an integer
 >>> add_integer(5, (1, 2))
 Traceback (most recent call last):
-...
 TypeError: b must be an integer
 >>> add_integer(None)
 Traceback (most recent call last):
-...
 TypeError: a must be an integer
 
 # Case test float overflow
@@ -54,19 +55,10 @@ TypeError: a must be an integer
 >>> add_integer(1.0e20, 1.0e20)
 200000000000000000000
 
-# Case cannot convert float NaN to integer
-import math
->>> add_integer(math.nan, 1)
+# case Not a Number NaN
+>>> add_integer(float('nan'), 5)
 Traceback (most recent call last):
-...
-TypeError: a must be an integer
-
-# Case missing arguments
->>> add_integer()
+ValueError : can not convert float to integer
+>>> add_integer(6, float('nan'))
 Traceback (most recent call last):
-...
-TypeError: add_integer() missing 1 required positional argument: 'a'
->>> add_integer(5)
-103
->>> add_integer(5, b=98)
-103
+ValueError : can not convert float to integer
