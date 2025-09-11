@@ -1,5 +1,13 @@
 #!/usr/bin/python3
+'''
+Module that define a print of text
+'''
+
+
 def text_indentation(text):
+    '''
+    function that define a print of a text
+    '''
     if not isinstance(text, str):
         raise TypeError("text must be a string")
     x = ""
