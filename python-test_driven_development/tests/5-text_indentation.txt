@@ -37,7 +37,8 @@ Quae animi affectio suum cuique tribuens atque hanc, quam dico.
 <BLANKLINE>
 Utinam quidem dicerent alium alio beatiorem! Iam ruinas videres
 
->>> text_indentation(-12)
+
+>>> text_indentation(1)
 Traceback (most recent call last):
 ...
 TypeError: text must be a string
@@ -51,4 +52,3 @@ TypeError: text must be a string
 Traceback (most recent call last):
 ...
 TypeError: text_indentation() missing 1 required positional argument: 'text'
-
