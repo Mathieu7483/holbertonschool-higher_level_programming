@@ -13,31 +13,31 @@ Ce projet couvre les concepts fondamentaux des listes et des tuples en Python. I
 
 Ce répertoire contient les solutions des exercices du projet, avec un fichier par tâche.
 
-0-print_list_integer.py : Une fonction qui imprime tous les entiers d'une liste.
+[0-print_list_integer.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/0-print_list_integer.py) : Une fonction qui imprime tous les entiers d'une liste.
 
-1-element_at.py : Une fonction qui récupère un élément d'une liste de manière sécurisée.
+[1-element_at.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/1-element_at.py) : Une fonction qui récupère un élément d'une liste de manière sécurisée.
 
-2-replace_in_list.py : Une fonction qui remplace un élément à une position spécifique.
+[2-replace_in_list.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/2-replace_in_list.py) : Une fonction qui remplace un élément à une position spécifique.
 
-3-print_reversed_list_integer.py : Une fonction qui imprime une liste d'entiers dans l'ordre inverse.
+[3-print_reversed_list_integer.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/3-print_reversed_list_integer.py) : Une fonction qui imprime une liste d'entiers dans l'ordre inverse.
 
-4-new_in_list.py : Une fonction qui remplace un élément dans une copie de la liste.
+[4-new_in_list.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/4-new_in_list.py) : Une fonction qui remplace un élément dans une copie de la liste.
 
-5-no_c.py : Une fonction qui supprime les caractères 'c' et 'C' d'une chaîne de caractères.
+[5-no_c.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/5-no_c.py) : Une fonction qui supprime les caractères 'c' et 'C' d'une chaîne de caractères.
 
-6-print_matrix_integer.py : Une fonction qui imprime une matrice d'entiers.
+[6-print_matrix_integer.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/6-print_matrix_integer.py) : Une fonction qui imprime une matrice d'entiers.
 
-7-add_tuple.py : Une fonction qui ajoute deux tuples.
+[7-add_tuple.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/7-add_tuple.py) : Une fonction qui ajoute deux tuples.
 
-8-multiple_returns.py : Une fonction qui renvoie un tuple contenant la longueur d'une chaîne et son premier caractère.
+[8-multiple_returns.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/8-multiple_returns.py) : Une fonction qui renvoie un tuple contenant la longueur d'une chaîne et son premier caractère.
 
-9-max_integer.py : Une fonction qui trouve le plus grand entier dans une liste.
+[9-max_integer.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/9-max_integer.py) : Une fonction qui trouve le plus grand entier dans une liste.
 
-10-divisible_by_2.py : Une fonction qui renvoie une liste de booléens indiquant si chaque élément est divisible par 2.
+[10-divisible_by_2.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/10-divisible_by_2.py) : Une fonction qui renvoie une liste de booléens indiquant si chaque élément est divisible par 2.
 
-11-delete_at.py : Une fonction qui supprime un élément à une position spécifique.
+[11-delete_at.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/11-delete_at.py) : Une fonction qui supprime un élément à une position spécifique.
 
-12-switch.py : Un script qui échange les valeurs de deux variables.
+[12-switch.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-data_structures/12-switch.py) : Un script qui échange les valeurs de deux variables.
 
 # 🛠️ Prérequis
 
