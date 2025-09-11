@@ -17,13 +17,13 @@ class TestMaxInteger(unittest.TestCase):
         self.assertEqual(max_integer([12, 15, 25, 10]), 25)
 
     def test_empty(self):
-        self.assertEqual(max_integer([]))
+        self.assertIsNone(max_integer([]))
 
     def test_negative(self):
-        self.assertEqual(max_integer([-1, -2, -3]) -3)
+        self.assertEqual(max_integer([-1, -2, -3]), -1)
 
     def test_oneelement(self):
-        self.assertEqual(max_integer([-3]) -3)
+        self.assertEqual(max_integer([-3]), -3)
 
 if __name__ == '__main__':
     unittest.main()
