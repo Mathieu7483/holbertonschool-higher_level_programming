@@ -12,25 +12,25 @@ Ce projet explore la gestion des erreurs et des exceptions en Python. L'objectif
 
 Ce répertoire contient les solutions des exercices du projet. Chaque fichier correspond à une tâche spécifique.
 
-0-safe_print_list.py : Une fonction qui imprime en toute sécurité un nombre x d'éléments d'une liste.
+[0-safe_print_list.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/0-safe_print_list.py) : Une fonction qui imprime en toute sécurité un nombre x d'éléments d'une liste.
 
-1-safe_print_integer.py : Une fonction qui imprime un entier de manière sécurisée, gérant les valeurs non-entières.
+[1-safe_print_integer.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/1-safe_print_integer.py) : Une fonction qui imprime un entier de manière sécurisée, gérant les valeurs non-entières.
 
-2-safe_print_list_integers.py : Une fonction qui imprime uniquement les entiers d'une liste, en gérant les exceptions.
+[2-safe_print_list_integers.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/2-safe_print_list_integers.py) : Une fonction qui imprime uniquement les entiers d'une liste, en gérant les exceptions.
 
-3-safe_print_division.py : Une fonction qui gère les divisions par zéro et s'assure d'imprimer un résultat dans le bloc finally.
+[3-safe_print_division.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/3-safe_print_division.py) : Une fonction qui gère les divisions par zéro et s'assure d'imprimer un résultat dans le bloc finally.
 
-4-list_division.py : Une fonction qui divise deux listes élément par élément, en gérant plusieurs types d'erreurs (type, division par zéro, et index hors de portée).
+[4-list_division.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/4-list_division.py) : Une fonction qui divise deux listes élément par élément, en gérant plusieurs types d'erreurs (type, division par zéro, et index hors de portée).
 
-5-raise_exception.py : Une fonction qui lève une exception de type TypeError.
+[5-raise_exception.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/5-raise_exception.py) : Une fonction qui lève une exception de type TypeError.
 
-6-raise_exception_msg.py : Une fonction qui lève une exception de type NameError avec un message personnalisé.
+[6-raise_exception_msg.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/6-raise_exception_msg.py) : Une fonction qui lève une exception de type NameError avec un message personnalisé.
 
-7- 100-safe_print_integer_err.py : Cette fonction imprime un entier de manière sécurisée. Si la valeur n'est pas un entier, elle renvoie False et affiche le message d'erreur standard sur la sortie d'erreur (stderr), sans interrompre le programme.
+[7- 100-safe_print_integer_err.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/100-safe_print_integer_err.py) : Cette fonction imprime un entier de manière sécurisée. Si la valeur n'est pas un entier, elle renvoie False et affiche le message d'erreur standard sur la sortie d'erreur (stderr), sans interrompre le programme.
 
-8- 101-safe_function.py : Cette fonction exécute une autre fonction de manière sécurisée. Si une exception se produit pendant l'exécution, elle la gère, affiche l'erreur sur stderr et retourne None, permettant ainsi au programme de continuer son exécution sans planter.
+[8- 101-safe_function.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/101-safe_function.py) : Cette fonction exécute une autre fonction de manière sécurisée. Si une exception se produit pendant l'exécution, elle la gère, affiche l'erreur sur stderr et retourne None, permettant ainsi au programme de continuer son exécution sans planter.
 
-9- 102-magic_calculation.py: Cette tâche consiste à reconstruire une fonction Python à partir de son bytecode. L'objectif est de traduire les instructions de bas niveau en code Python fonctionnel, comprenant les boucles, les opérations et la gestion des exceptions.
+[9- 102-magic_calculation.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-exceptions/102-magic_calculation.py) : Cette tâche consiste à reconstruire une fonction Python à partir de son bytecode. L'objectif est de traduire les instructions de bas niveau en code Python fonctionnel, comprenant les boucles, les opérations et la gestion des exceptions.
 
 # 🛠️ Prérequis
 

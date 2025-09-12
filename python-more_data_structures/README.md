@@ -13,37 +13,37 @@ Ce projet se concentre sur les structures de données avancées en Python, à sa
 
 Ce répertoire contient les solutions des exercices du projet, avec un fichier par tâche.
 
-0-square_matrix_simple.py : Une fonction qui calcule le carré de chaque élément d'une matrice.
+[0-square_matrix_simple.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/0-square_matrix_simple.py) : Une fonction qui calcule le carré de chaque élément d'une matrice.
 
-1-search_replace.py : Une fonction qui remplace toutes les occurrences d'un élément dans une liste.
+[1-search_replace.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/1-search_replace.py) : Une fonction qui remplace toutes les occurrences d'un élément dans une liste.
 
-2-uniq_add.py : Une fonction qui additionne tous les entiers uniques d'une liste.
+[2-uniq_add.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/2-uniq_add.py) : Une fonction qui additionne tous les entiers uniques d'une liste.
 
-3-common_elements.py : Une fonction qui retourne les éléments communs à deux sets.
+[3-common_elements.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/3-common_elements.py) : Une fonction qui retourne les éléments communs à deux sets.
 
-4-only_diff_elements.py : Une fonction qui retourne les éléments présents dans un seul des deux sets.
+[4-only_diff_elements.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/4-only_diff_elements.py) : Une fonction qui retourne les éléments présents dans un seul des deux sets.
 
-5-number_keys.py : Une fonction qui retourne le nombre de clés d'un dictionnaire.
+[5-number_keys.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/5-number_keys.py) : Une fonction qui retourne le nombre de clés d'un dictionnaire.
 
-6-print_sorted_dictionary.py : Une fonction qui imprime un dictionnaire avec ses clés triées.
+[6-print_sorted_dictionary.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/6-print_sorted_dictionary.py) : Une fonction qui imprime un dictionnaire avec ses clés triées.
 
-7-update_dictionary.py : Une fonction qui ajoute ou met à jour une paire clé/valeur dans un dictionnaire.
+[7-update_dictionary.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/7-update_dictionary.py) : Une fonction qui ajoute ou met à jour une paire clé/valeur dans un dictionnaire.
 
-8-simple_delete.py : Une fonction qui supprime une clé d'un dictionnaire.
+[8-simple_delete.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/8-simple_delete.py) : Une fonction qui supprime une clé d'un dictionnaire.
 
-9-multiply_by_2.py : Une fonction qui retourne un nouveau dictionnaire avec toutes les valeurs multipliées par deux.
+[9-multiply_by_2.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/9-multiply_by_2.py) : Une fonction qui retourne un nouveau dictionnaire avec toutes les valeurs multipliées par deux.
 
-10-best_score.py : Une fonction qui retourne la clé avec la plus grande valeur entière.
+[10-best_score.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/10-best_score.py) : Une fonction qui retourne la clé avec la plus grande valeur entière.
 
-11-multiply_list_map.py : Une fonction qui multiplie tous les éléments d'une liste par un nombre en utilisant map.
+[11-multiply_list_map.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/11-multiply_list_map.py) : Une fonction qui multiplie tous les éléments d'une liste par un nombre en utilisant map.
 
-12-roman_to_int.py : Une fonction qui convertit un nombre romain en entier.
+[12-roman_to_int.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/12-roman_to_int.py) : Une fonction qui convertit un nombre romain en entier.
 
-13- 100-weight_average.py : Cette fonction calcule la moyenne pondérée d'une liste de tuples. Chaque tuple contient un score et son poids associé. Elle renvoie 0 si la liste est vide, garantissant un comportement prévisible même avec des entrées vides.
+[13- 100-weight_average.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/100-weight_average.py) : Cette fonction calcule la moyenne pondérée d'une liste de tuples. Chaque tuple contient un score et son poids associé. Elle renvoie 0 si la liste est vide, garantissant un comportement prévisible même avec des entrées vides.
 
-14- 101-square_matrix_map.py : Cette tâche se concentre sur la fonction map. Elle crée une nouvelle matrice en calculant le carré de chaque élément de la matrice d'origine, en utilisant uniquement map et sans boucles, pour montrer une approche de programmation fonctionnelle et concise.
+[14- 101-square_matrix_map.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/101-square_matrix_map.py) : Cette tâche se concentre sur la fonction map. Elle crée une nouvelle matrice en calculant le carré de chaque élément de la matrice d'origine, en utilisant uniquement map et sans boucles, pour montrer une approche de programmation fonctionnelle et concise.
 
-15- 102-complex_delete.py : Cette fonction supprime des clés dans un dictionnaire basées sur leur valeur. Elle itère sur les éléments et supprime toutes les clés qui correspondent à une valeur donnée, ce qui est une opération plus complexe que la simple suppression par clé.
+[15- 102-complex_delete.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-more_data_structures/102-complex_delete.py) : Cette fonction supprime des clés dans un dictionnaire basées sur leur valeur. Elle itère sur les éléments et supprime toutes les clés qui correspondent à une valeur donnée, ce qui est une opération plus complexe que la simple suppression par clé.
 
 # 🛠️ Prérequis
 
