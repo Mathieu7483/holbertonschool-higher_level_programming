@@ -47,8 +47,8 @@ class Rectangle:
         rectangle_list = []
         for i in range(self.__height):
             rectangle_list.append("#" * self.__width)
-        
+
         return "\n".join(rectangle_list)
-    
+
     def print(self):
         return "Rectangle({}, {})".format(self.__width, self.__height)
