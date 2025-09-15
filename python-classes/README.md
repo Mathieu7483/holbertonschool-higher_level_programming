@@ -11,19 +11,25 @@ Ce projet explore les bases de la Programmation Orientée Objet (POO) en Python.
 
 Ce répertoire contient les fichiers source des classes, chacun correspondant à une étape progressive de l'apprentissage des concepts de la POO.
 
-0-square.py : Une classe Square vide.
+[0-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/0-square.py) : Une classe Square vide.
 
-1-square.py : Ajout d'un attribut d'instance privé __size.
+[1-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/1-square.py) : Ajout d'un attribut d'instance privé __size.
 
-2-square.py : Validation de la taille avec des exceptions TypeError et ValueError.
+[2-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/2-square.py) : Validation de la taille avec des exceptions TypeError et ValueError.
 
-3-square.py : Implémentation d'une méthode publique area() pour calculer l'aire du carré.
+[3-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/3-square.py) : Implémentation d'une méthode publique area() pour calculer l'aire du carré.
 
-4-square.py : Ajout de propriétés (@property) pour accéder et modifier l'attribut size de manière sécurisée.
+[4-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/4-square.py) : Ajout de propriétés (@property) pour accéder et modifier l'attribut size de manière sécurisée.
 
-5-square.py : Ajout d'une méthode publique my_print() qui affiche le carré en utilisant le caractère #.
+[5-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/5-square.py) : Ajout d'une méthode publique my_print() qui affiche le carré en utilisant le caractère #.
 
-6-square.py : Ajout d'un attribut de position privé (__position) pour imprimer le carré avec un décalage, et des propriétés pour le gérer.
+[6-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/6-square.py) : Ajout d'un attribut de position privé (__position) pour imprimer le carré avec un décalage, et des propriétés pour le gérer.
+
+[100-singly_linked_list.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/100-singly_linked_list.py) : Une implémentation d'une liste chaînée simple (SinglyLinkedList) avec une insertion triée, démontrant l'utilisation des classes pour des structures de données plus complexes.
+
+[101-square.py]() : Modification de la classe Square pour permettre aux instances d'être directement imprimées en utilisant la méthode my_print() implicitement.
+
+[102-square.py]() : Surdéfinition des opérateurs de comparaison (<, ==, etc.) pour la classe Square, permettant de comparer deux instances de carré en fonction de leur aire.
 
 # 🛠️ Prérequis
 
