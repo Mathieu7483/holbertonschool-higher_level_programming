@@ -29,7 +29,7 @@ Ce répertoire contient les fichiers source des classes, chacun correspondant à
 
 [101-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/101-square.py) : Modification de la classe Square pour permettre aux instances d'être directement imprimées en utilisant la méthode my_print() implicitement.
 
-[102-square.py]() : Surdéfinition des opérateurs de comparaison (<, ==, etc.) pour la classe Square, permettant de comparer deux instances de carré en fonction de leur aire.
+[102-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/102-square.py) : Surdéfinition des opérateurs de comparaison (<, ==, etc.) pour la classe Square, permettant de comparer deux instances de carré en fonction de leur aire.
 
 # 🛠️ Prérequis
 
