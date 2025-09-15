@@ -27,7 +27,7 @@ Ce répertoire contient les fichiers source des classes, chacun correspondant à
 
 [100-singly_linked_list.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/100-singly_linked_list.py) : Une implémentation d'une liste chaînée simple (SinglyLinkedList) avec une insertion triée, démontrant l'utilisation des classes pour des structures de données plus complexes.
 
-[101-square.py]() : Modification de la classe Square pour permettre aux instances d'être directement imprimées en utilisant la méthode my_print() implicitement.
+[101-square.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-classes/101-square.py) : Modification de la classe Square pour permettre aux instances d'être directement imprimées en utilisant la méthode my_print() implicitement.
 
 [102-square.py]() : Surdéfinition des opérateurs de comparaison (<, ==, etc.) pour la classe Square, permettant de comparer deux instances de carré en fonction de leur aire.
 
