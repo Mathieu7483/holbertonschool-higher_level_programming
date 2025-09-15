@@ -24,7 +24,7 @@ class Square:
             line = " " * self.__position[0] + "#" * self.__size
             square_string += line + "\n"
 
-            return square_string[:-1]
+        return square_string[:-1]
 
     @property
     def size(self):
