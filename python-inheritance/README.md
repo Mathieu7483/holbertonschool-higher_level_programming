@@ -55,10 +55,12 @@ Pour tester les fichiers, vous pouvez utiliser les scripts main fournis. Par exe
 ```
 
 # ✍️ Auteur
-Mathieu GODALIER - Élève en programmation à la Holberton School
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
 
 # ⚖️ Licence
+
 Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier LICENSE.
 
 # 🙏 Remerciements
-Ce projet a été réalisé dans le cadre du cursus de programmation de l'École Holberton. Un grand merci pour l'opportunité de maîtriser les concepts d'héritage en Python.
+
+Ce projet a été réalisé dans le cadre du cursus de programmation de l'École Holberton. Un grand merci pour l'opportunité d'apprendre et de mettre en pratique ces concepts.
