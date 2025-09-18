@@ -4,4 +4,4 @@
 
 def lookup(obj):
     """define a function that returns the list of variables"""
-    return(list)
+    return dir(obj)
