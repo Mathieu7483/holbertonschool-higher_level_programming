@@ -4,4 +4,4 @@
 
 def inherits_from(obj, a_class):
     """Class that define a inherits from"""
-    return isinstance(obj, a_class)
+    return isinstance(obj, a_class) and type(obj) is not a_class
