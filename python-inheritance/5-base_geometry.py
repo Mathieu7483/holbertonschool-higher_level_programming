@@ -2,5 +2,6 @@
 """module that define a empty class"""
 
 
-def BaseGeometry():
+class BaseGeometry():
   """Empty class called BaseGeometry"""
+pass
