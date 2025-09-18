@@ -3,5 +3,7 @@
 
 
 class BaseGeometry():
-  """Empty class called BaseGeometry"""
+    """Empty class called BaseGeometry"""
+
+
 pass
