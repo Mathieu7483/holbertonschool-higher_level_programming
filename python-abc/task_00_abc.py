@@ -4,7 +4,7 @@ from abc import ABC, abstractmethod
 
 
 class Animal(ABC):
-    """class that define animal"""
+    """abstract class that define  animal"""
     @abstractmethod
     def sound(self):
         pass
