@@ -11,14 +11,8 @@
 *.log
 #ignore les fichiers .out
 *.out
-# Ignorer les fichiers main.c spécifiquement
+# Ignorer les fichiers main.py spécifiquement
 *main.py
-main_00_abc.py
-main_01_duck_typing.py 
-main_02_verboselist.py
-main_03_countediterator.py
-main_04_flyingfish.py
-main_05_dragon.py
-
+main*.py
 # Ignorer les generations de cache
 __pycache__
