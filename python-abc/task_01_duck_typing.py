@@ -22,7 +22,6 @@ class Shape(ABC):
 
 
 class Circle(Shape):
-    """Circle shape."""
 
     def __init__(self, radius):
         """Initialize Circle."""
@@ -38,7 +37,6 @@ class Circle(Shape):
 
 
 class Rectangle(Shape):
-    """Rectangle shape."""
 
     def __init__(self, width, height):
         """Initialize Rectangle."""
