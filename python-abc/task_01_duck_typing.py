@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """module that define an abstract method of a shape class"""
+
 from abc import ABC, abstractmethod
 import math
 
