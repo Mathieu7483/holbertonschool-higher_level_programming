@@ -1,9 +1,12 @@
 #!/usr/bin/python3
+"""
+mudile that define an abstract method of a shape class"""
 from abc import ABC, abstractmethod
 import math
 
 
 class Shape(ABC):
+    """Abstract base class for shapes."""
     @abstractmethod
     def area(self):
         pass
@@ -19,10 +22,10 @@ class Circle(Shape):
         self.radius = radius
 
     def area(self):
-        return (math.pi)*(self.radius**2)
+        return (math.pi) * abs(self.radius**2)
 
     def perimeter(self):
-        return (math.pi) * (self.radius * 2)
+        return (math.pi) * abs(self.radius * 2)
 
 
 class Rectangle(Shape):
