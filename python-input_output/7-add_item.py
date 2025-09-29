@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 """ Script that add all the arguments in command line"""
+
+
 import sys
 from pathlib import Path
 import json
