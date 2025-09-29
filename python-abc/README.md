@@ -11,17 +11,17 @@ Ce projet explore des concepts avancés de la Programmation Orientée Objet (POO
 
 Chaque fichier de ce répertoire représente une tâche progressive qui illustre un concept clé de la POO.
 
-[task_00_abc.py](): Démonstration des classes abstraites avec Animal, Dog et Cat. Ce fichier montre comment une classe abstraite sert de modèle et que ses méthodes doivent être implémentées par les classes qui en héritent.
+[task_00_abc.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-abc/task_00_abc.py): Démonstration des classes abstraites avec Animal, Dog et Cat. Ce fichier montre comment une classe abstraite sert de modèle et que ses méthodes doivent être implémentées par les classes qui en héritent.
 
-[task_01_duck_typing.py](): Illustration du concept de "duck typing" et des interfaces. Les classes Circle et Rectangle adhèrent à l'interface Shape sans vérification explicite de leur type, permettant une grande flexibilité.
+[task_01_duck_typing.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-abc/task_01_duck_typing.py): Illustration du concept de "duck typing" et des interfaces. Les classes Circle et Rectangle adhèrent à l'interface Shape sans vérification explicite de leur type, permettant une grande flexibilité.
 
-[task_02_verboselist.py](): Exemple d'extension d'une classe native de Python. La classe VerboseList hérite de list et surcharge des méthodes pour ajouter des notifications personnalisées lors des opérations.
+[task_02_verboselist.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-abc/task_02_verboselist.py): Exemple d'extension d'une classe native de Python. La classe VerboseList hérite de list et surcharge des méthodes pour ajouter des notifications personnalisées lors des opérations.
 
-[task_03_countediterator.py](): Un autre exemple d'extension, où la classe CountedIterator étend le comportement d'un itérateur pour suivre le nombre d'itérations effectuées.
+[task_03_countediterator.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-abc/task_03_countediterator.py): Un autre exemple d'extension, où la classe CountedIterator étend le comportement d'un itérateur pour suivre le nombre d'itérations effectuées.
 
-[task_04_flyingfish.py](): Exploration de l'héritage multiple. Les classes Fish et Bird sont combinées pour créer un FlyingFish, mettant en évidence le comportement de l'ordre de résolution des méthodes (MRO).
+[task_04_flyingfish.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-abc/task_04_flyingfish.py): Exploration de l'héritage multiple. Les classes Fish et Bird sont combinées pour créer un FlyingFish, mettant en évidence le comportement de l'ordre de résolution des méthodes (MRO).
 
-[task_05_dragon.py](): Utilisation de "mixins" pour composer le comportement d'une classe. Les classes SwimMixin et FlyMixin fournissent des fonctionnalités modulaires qui sont ensuite intégrées dans la classe Dragon.
+[task_05_dragon.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-abc/task_05_dragon.py): Utilisation de "mixins" pour composer le comportement d'une classe. Les classes SwimMixin et FlyMixin fournissent des fonctionnalités modulaires qui sont ensuite intégrées dans la classe Dragon.
 
 # 🛠️ Prérequis
 
