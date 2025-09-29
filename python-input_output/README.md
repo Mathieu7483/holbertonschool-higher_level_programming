@@ -54,7 +54,7 @@ python3 -m doctest ./tests/*
 ```
 
 # ✍️ Auteur
-Mathieu GODALIER - Élève en programmation à la Holberton School
+[Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
 
 # ⚖️ Licence
 Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier LICENSE.
