@@ -19,19 +19,19 @@ Algorithmique : Implémentation du triangle de Pascal.
 
 # 📂 Contenu de l'exercice
 Fichier	Description
-[0-read_file.py]() :	Fonction qui lit un fichier texte (UTF8) et imprime son contenu sur la sortie standard.
-[1-write_file.py]()	:Fonction qui écrit une chaîne dans un fichier texte (et écrase le contenu s'il existe).
-[2-append_write.py]() :	Fonction qui ajoute une chaîne à la fin d'un fichier texte (et crée le fichier s'il n'existe pas).
-[3-to_json_string.py]()	: Fonction qui retourne la représentation JSON (chaîne de caractères) d'un objet Python.
-[4-from_json_string.py]()	: Fonction qui retourne un objet (structure de données Python) à partir d'une chaîne JSON.
-[5-save_to_json_file.py]()	: Fonction qui écrit un objet Python dans un fichier texte, en utilisant la représentation JSON.
-[6-load_from_json_file.py]()	: Fonction qui crée un objet Python à partir d'un "fichier JSON".
-[7-add_item.py]()	: Script qui charge des éléments depuis un fichier JSON, ajoute les arguments passés en ligne de commande, et sauvegarde la liste mise à jour.
-[8-class_to_json.py]()	: Fonction qui retourne la description dictionnaire d'un objet pour la sérialisation JSON.
-[9-student.py]()	: Classe Student avec une méthode to_json pour récupérer sa représentation dictionnaire.
-[10-student.py]()	: Classe Student améliorée avec une méthode to_json(attrs=None) permettant de filtrer les attributs à sérialiser.
-[11-student.py]()	: Classe Student avec une méthode reload_from_json(json) pour désérialiser et remplacer ses attributs à partir d'un dictionnaire JSON.
-[12-pascal_triangle.py]()	: Fonction qui génère le Triangle de Pascal jusqu'à la ligne n.
+-[0-read_file.py]() :	Fonction qui lit un fichier texte (UTF8) et imprime son contenu sur la sortie standard.
+-[1-write_file.py]()	:Fonction qui écrit une chaîne dans un fichier texte (et écrase le contenu s'il existe).
+-[2-append_write.py]() :	Fonction qui ajoute une chaîne à la fin d'un fichier texte (et crée le fichier s'il n'existe pas).
+-[3-to_json_string.py]()	: Fonction qui retourne la représentation JSON (chaîne de caractères) d'un objet Python.
+-[4-from_json_string.py]()	: Fonction qui retourne un objet (structure de données Python) à partir d'une chaîne JSON.
+-[5-save_to_json_file.py]()	: Fonction qui écrit un objet Python dans un fichier texte, en utilisant la représentation JSON.
+-[6-load_from_json_file.py]()	: Fonction qui crée un objet Python à partir d'un "fichier JSON".
+-[7-add_item.py]()	: Script qui charge des éléments depuis un fichier JSON, ajoute les arguments passés en ligne de commande, et sauvegarde la liste mise à jour.
+-[8-class_to_json.py]()	: Fonction qui retourne la description dictionnaire d'un objet pour la sérialisation JSON.
+-[9-student.py]()	: Classe Student avec une méthode to_json pour récupérer sa représentation dictionnaire.
+-[10-student.py]()	: Classe Student améliorée avec une méthode to_json(attrs=None) permettant de filtrer les attributs à sérialiser.
+-[11-student.py]()	: Classe Student avec une méthode reload_from_json(json) pour désérialiser et remplacer ses attributs à partir d'un dictionnaire JSON.
+-[12-pascal_triangle.py]()	: Fonction qui génère le Triangle de Pascal jusqu'à la ligne n.
 
 
 # 🛠️ Prérequis
