@@ -18,10 +18,13 @@ Interfaçage de Formats : Conversion de données d'un format à l'autre (CSV ver
 # XML : Exploration de la sérialisation et désérialisation en XML en utilisant xml.etree.ElementTree.
 
 # 📂 Contenu de l'exercice
-[task_00_basic_serialization.py]()	Implémente la sérialisation et désérialisation de base d'un dictionnaire Python vers/depuis un fichier JSON.
-[task_01_pickle.py]()	Définit la classe CustomObject avec des méthodes de sérialisation et désérialisation basées sur le module pickle, démontrant la gestion des objets personnalisés.
-[task_02_csv.py]()	Contient la fonction convert_csv_to_json qui lit des données depuis un fichier CSV et les convertit en un fichier JSON, en utilisant les modules csv et json.
-[task_03_xml.py]()	Implémente les fonctions serialize_to_xml et deserialize_from_xml pour convertir un dictionnaire Python vers/depuis le format XML en utilisant xml.etree.ElementTree.
+[task_00_basic_serialization.py]() : Implémente la sérialisation et la désérialisation de base d'un dictionnaire Python vers/depuis un fichier au format JSON.
+
+[task_01_pickle.py]() : Définit la classe CustomObject avec des méthodes pour sérialiser et désérialiser des instances de la classe en utilisant le module pickle, montrant la gestion des objets Python personnalisés.
+
+[task_02_csv.py]() : Contient la fonction convert_csv_to_json qui lit des données structurées depuis un fichier CSV et les convertit en un fichier JSON, en utilisant les modules standards csv et json.
+
+[task_03_xml.py]() : Implémente des fonctions pour convertir un dictionnaire Python vers/depuis le format XML en utilisant le module xml.etree.ElementTree, explorant un format de sérialisation alternatif au JSON.
 
 
 # 🛠️ Prérequis
