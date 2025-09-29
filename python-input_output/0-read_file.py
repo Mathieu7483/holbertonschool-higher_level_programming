@@ -5,9 +5,6 @@
 def read_file(filename=""):
     """function that read a file"""
 
-    with open('my_file_0.txt', encoding="utf-8") as f:
+    with open('my_file_0.txt') as f:
         read_data = f.read()
         print(read_data, end="")
-
-    f.closed
-True
