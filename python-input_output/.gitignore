@@ -17,3 +17,5 @@
 *__pycache__
 # Ignorer les fichiers .txt spécifiquement
 *.txt
+# Ignorer les fichiers .json spécifiquement
+*.json
