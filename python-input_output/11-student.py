@@ -25,4 +25,4 @@ class Student:
     def reload_from_json(self, json):
         """Function that reload the class"""
         for key, value in json.items():
-            self.first_name = "NewValue"
+            setattr(self, key, value)
