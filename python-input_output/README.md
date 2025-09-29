@@ -18,32 +18,35 @@ Programmation Orientée Objet (POO) : Ajout de méthodes de sérialisation/dés�
 Algorithmique : Implémentation du triangle de Pascal.
 
 # 📂 Contenu de l'exercice
-Fichier	Description
-[0-read_file.py]() : Fonction qui lit un fichier texte (UTF8) et imprime son contenu sur la sortie standard, en utilisant l'instruction with.
+[0-read_file.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/0-read_file.py) : Fonction qui lit un fichier texte (UTF8) et imprime son contenu sur la sortie standard, en utilisant l'instruction with.
 
-[1-write_file.py]() : Fonction qui écrit une chaîne dans un fichier texte. Elle crée le fichier s'il n'existe pas et écrase le contenu s'il est présent.
+[1-write_file.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/1-write_file.py) : Fonction qui écrit une chaîne dans un fichier texte. Elle crée le fichier s'il n'existe pas et écrase le contenu s'il est présent.
 
-[2-append_write.py ](): Fonction qui ajoute une chaîne à la fin d'un fichier texte. Elle crée le fichier s'il n'existe pas.
+[2-append_write.py ](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/2-append_write.py): Fonction qui ajoute une chaîne à la fin d'un fichier texte. Elle crée le fichier s'il n'existe pas.
 
-[3-to_json_string.py]() : Fonction qui retourne la représentation JSON (chaîne de caractères) d'un objet Python.
+[3-to_json_string.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/3-to_json_string.py) : Fonction qui retourne la représentation JSON (chaîne de caractères) d'un objet Python.
 
-[4-from_json_string.py]() : Fonction qui retourne un objet Python (structure de données) à partir d'une chaîne JSON.
+[4-from_json_string.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/4-from_json_string.py) : Fonction qui retourne un objet Python (structure de données) à partir d'une chaîne JSON.
 
-[5-save_to_json_file.py]() : Fonction qui écrit un objet Python dans un fichier texte, en utilisant sa représentation JSON.
+[5-save_to_json_file.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/5-save_to_json_file.py) : Fonction qui écrit un objet Python dans un fichier texte, en utilisant sa représentation JSON.
 
-[6-load_from_json_file.py]() : Fonction qui crée un objet Python à partir du contenu d'un "fichier JSON".
+[6-load_from_json_file.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/6-load_from_json_file.py) : Fonction qui crée un objet Python à partir du contenu d'un "fichier JSON".
 
-[7-add_item.py]() : Script qui gère une liste : charge un fichier JSON existant, y ajoute les arguments de la ligne de commande, puis sauvegarde la liste mise à jour.
+[7-add_item.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/7-add_item.py) : Script qui gère une liste : charge un fichier JSON existant, y ajoute les arguments de la ligne de commande, puis sauvegarde la liste mise à jour.
 
-[8-class_to_json.py]() : Fonction qui retourne la description dictionnaire d'un objet (obj.__dict__) pour la sérialisation JSON.
+[8-class_to_json.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/8-class_to_json.py) : Fonction qui retourne la description dictionnaire d'un objet (obj.__dict__) pour la sérialisation JSON.
 
-[9-student.py]() : Définit la classe Student avec une méthode publique to_json() pour obtenir sa représentation dictionnaire.
+[9-student.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/9-student.py) : Définit la classe Student avec une méthode publique to_json() pour obtenir sa représentation dictionnaire.
 
-[10-student.py]() : Améliore la classe Student en permettant de filtrer les attributs à sérialiser via to_json(attrs=None).
+[10-student.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/10-student.py) : Améliore la classe Student en permettant de filtrer les attributs à sérialiser via to_json(attrs=None).
 
-[11-student.py]() : Ajoute à la classe Student la méthode reload_from_json(json) pour remplacer ses attributs à partir d'un dictionnaire (désérialisation).
+[11-student.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/11-student.py) : Ajoute à la classe Student la méthode reload_from_json(json) pour remplacer ses attributs à partir d'un dictionnaire (désérialisation).
 
-[12-pascal_triangle.py]() : Implémente l'algorithme pour générer le Triangle de Pascal jusqu'à la ligne n (exercice d'entretien technique).
+[12-pascal_triangle.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/12-pascal_triangle.py) : Implémente l'algorithme pour générer le Triangle de Pascal jusqu'à la ligne n (exercice d'entretien technique).
+
+[100-append_after.py](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/python-input_output/100-append_after.py) : Fonction avancée qui insère une nouvelle ligne de texte dans un fichier, immédiatement après chaque ligne contenant une chaîne spécifique.
+
+[101-stats.py]() : Script avancé pour le traitement de logs : il lit stdin ligne par ligne, calcule la taille totale des fichiers et compte les occurrences de codes d'état, affichant les statistiques toutes les 10 lignes ou après une interruption clavier (CTRL + C).
 
 
 # 🛠️ Prérequis
