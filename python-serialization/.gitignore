@@ -23,3 +23,5 @@
 *.csv
 # Ignorer les fichiers main.py spécifiquement
 main*.py
+# Ignorer les fichiers .xml spécifiquement
+*.xml
