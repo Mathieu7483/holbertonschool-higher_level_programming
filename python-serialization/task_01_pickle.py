@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-"""Module that serialize and deserialize a file to Json"""
+"""Module that serialize and deserialize a file to Pickle"""
 import pickle
 
 
 class CustomObject:
-    """Custom class for serialization with pickle"""
+    """Custom class for serialization with Pickle"""
 
     def __init__(self, name, age, is_student):
         """Initialize CustomObject instance"""
@@ -12,8 +12,14 @@ class CustomObject:
         self.age = age
         self.is_student = is_student
 
+    def display(self):
+        """Display object attributes"""
+        print("Name: {}".format(self.name))
+        print("Age: {}".format(self.age))
+        print("Is Student: {}".format(self.is_student))
+
     def serialize(self, filename):
-        """Serialize the object to a file using pickle"""
+        """Serialize the object to a file using Pickle"""
         try: 
             with open(filename, 'wb') as f:
                 pickle.dump(self, f)
@@ -22,7 +28,7 @@ class CustomObject:
 
     @classmethod
     def deserialize(cls, filename):
-        """Deserialize an object from a file using pickle"""
+        """Deserialize an object from a file using Pickle"""
         try:
             with open(filename, 'rb') as f:
                 return pickle.load(f)
