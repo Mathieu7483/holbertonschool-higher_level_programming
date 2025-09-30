@@ -19,3 +19,7 @@
 *.txt
 # Ignorer les fichiers .json spécifiquement
 *.json
+# Ignorer les fichiers .csv spécifiquement
+*.csv
+# Ignorer les fichiers main.py spécifiquement
+main*.py
