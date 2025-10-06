@@ -47,17 +47,23 @@ def get_all_users():
 def add_user():
     user_data = request.get_json()
 
-    if not user_data or 'username' not in user_data:
+    if not user_data:
+        return jsonify({"error": "Username is required"}), 400
+    
+    if 'username' not in user_data:
         return jsonify({"error": "Username is required"}), 400
 
     username = user_data['username']
 
     if username in USERS:
-        return jsonify({"error": "User already exists"}), 400
+        return jsonify({"error": "Username already exists"}), 400
 
     USERS[username] = user_data
 
-    return jsonify(user_data), 201
+    return jsonify({
+        "message": "User added",
+        "user": user_data
+    }), 201
 
 
 @app.errorhandler(404)
