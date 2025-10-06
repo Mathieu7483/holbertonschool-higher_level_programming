@@ -25,3 +25,5 @@
 main*.py
 # Ignorer les fichiers .xml spécifiquement
 *.xml
+# Ignorer le dossier de l'environnement virtuel Python
+venv/
