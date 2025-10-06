@@ -29,14 +29,9 @@ def get_status():
     return response
 
 
-@app.route('/users/<username>')
-def get_user(username):
-    user = USERS.get(username)
-    if user:
-        return jsonify(user), 200
-    else:
-        response = make_response(jsonify({"error": "User not found"}), 404)
-        return response
+@app.route('/users')
+def get_all_users():
+    return jsonify(USERS), 200
 
 
 @app.route('/add_user', methods=['POST'])
@@ -65,8 +60,7 @@ def add_user():
 
 @app.errorhandler(404)
 def not_found(error):
-    response = make_response(jsonify({"error": "Endpoint not found"}), 404)
-    return response
+    return make_response(jsonify({"error": "Endpoint not found"}), 404)
 
 
 if __name__ == '__main__':
