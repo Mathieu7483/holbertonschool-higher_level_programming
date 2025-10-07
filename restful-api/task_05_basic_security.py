@@ -19,8 +19,18 @@ app.config['JWT_SECRET_KEY'] = 'your-secret-key-change-this-in-production'
 jwt = JWTManager(app)
 
 # User data stored in memory
-users = {"user1": {"username": "user1", "password": generate_password_hash("password"), "role": "user"},
-    "admin1": {"username": "admin1", "password": generate_password_hash("password"), "role": "admin"}}
+users = {
+    "user1": {
+        "username": "user1",
+        "password": generate_password_hash("password"),
+        "role": "user"
+    },
+    "admin1": {
+        "username": "admin1",
+        "password": generate_password_hash("password"),
+        "role": "admin"
+    }
+}
 
 
 @auth.verify_password
@@ -67,7 +77,7 @@ def handle_needs_fresh_token_error(jwt_header, jwt_payload):
 @auth.login_required
 def basic_protected():
     """Protected route using Basic Authentication"""
-    return "Basic Auth: Access Granted"
+    return jsonify({"message": "Basic Auth: Access Granted"}), 200
 
 
 @app.route('/login', methods=['POST'])
@@ -102,7 +112,8 @@ def login():
 @jwt_required()
 def jwt_protected():
     """Protected route using JWT Authentication"""
-    return "JWT Auth: Access Granted"
+    current_user = get_jwt_identity()
+    return jsonify({"message": "JWT Auth: Access Granted", "user": current_user}), 200
 
 
 @app.route('/admin-only', methods=['GET'])
@@ -117,7 +128,8 @@ def admin_only():
     if role != 'admin':
         return jsonify({"error": "Admin access required"}), 403
 
-    return "Admin Access: Granted"
+    current_user = get_jwt_identity()
+    return jsonify({"message": "Admin Access: Granted", "user": current_user}), 200
 
 
 if __name__ == '__main__':
