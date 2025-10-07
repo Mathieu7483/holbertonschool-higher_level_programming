@@ -77,59 +77,40 @@ def handle_needs_fresh_token_error(jwt_header, jwt_payload):
 @auth.login_required
 def basic_protected():
     """Protected route using Basic Authentication"""
-    return jsonify({"message": "Basic Auth: Access Granted"}), 200
+    return "Basic Auth: Access Granted"
 
 
 @app.route('/login', methods=['POST'])
 def login():
-    """Login endpoint to obtain JWT token"""
+    """Login endpoint that returns JWT token upon successful authentication"""
     data = request.get_json()
-
-    if not data or 'username' not in data or 'password' not in data:
-        return jsonify({"error": "Missing username or password"}), 400
-
-    username = data['username']
-    password = data['password']
-
-    # Check if user exists and password is correct
-    if username not in users:
-        return jsonify({"error": "Invalid credentials"}), 401
-
-    if not check_password_hash(users[username]['password'], password):
-        return jsonify({"error": "Invalid credentials"}), 401
-
-    # Create JWT token with user role embedded
-    additional_claims = {"role": users[username]['role']}
-    access_token = create_access_token(
-        identity=username,
-        additional_claims=additional_claims
-    )
-
-    return jsonify({"access_token": access_token}), 200
+    username = data.get('username')
+    password = data.get('password')
+    user = users.get(username)
+    if user and check_password_hash(user['password'], password):
+        # Create JWT token with user identity and role
+        access_token = create_access_token(
+            identity={'username': username,
+                      'role': user['role']})
+        return jsonify(access_token=access_token)
+    return jsonify({"error": "Invalid credentials"}), 401
 
 
 @app.route('/jwt-protected', methods=['GET'])
 @jwt_required()
 def jwt_protected():
     """Protected route using JWT Authentication"""
-    current_user = get_jwt_identity()
-    return jsonify({"message": "JWT Auth: Access Granted", "user": current_user}), 200
+    return "JWT Auth: Access Granted"
 
 
 @app.route('/admin-only', methods=['GET'])
 @jwt_required()
 def admin_only():
-    """Protected route accessible only to admin users"""
-    # Get the JWT claims
-    claims = get_jwt()
-    role = claims.get('role', None)
-
-    # Check if user has admin role
-    if role != 'admin':
-        return jsonify({"error": "Admin access required"}), 403
-
+    """Endpoint restricted to users with admin role"""
     current_user = get_jwt_identity()
-    return jsonify({"message": "Admin Access: Granted", "user": current_user}), 200
+    if current_user['role'] != 'admin':
+        return jsonify({"error": "Admin access required"}), 403
+    return "Admin Access: Granted"
 
 
 if __name__ == '__main__':
