@@ -15,7 +15,7 @@ app = Flask(__name__)
 auth = HTTPBasicAuth()
 
 # Configuration
-app.config['JWT_SECRET_KEY'] = 'your-secret-key-change-this-in-production'
+app.config['JWT_SECRET_KEY'] = 'your_secret_key_here'
 jwt = JWTManager(app)
 
 # User data stored in memory
@@ -133,4 +133,4 @@ def admin_only():
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
