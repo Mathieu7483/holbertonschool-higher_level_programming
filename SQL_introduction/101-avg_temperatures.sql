@@ -2,7 +2,7 @@
 SELECT
     city,
     ROUND(AVG(value), 4) AS avg_temp
-FROM
+FROM 
     temperatures
 GROUP BY
     city
