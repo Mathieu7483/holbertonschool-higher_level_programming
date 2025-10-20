@@ -102,7 +102,3 @@ Ces exercices utilisent des techniques avancées pour l'exclusion d'ensembles de
 ### ⚖️ **Licence**
 
 Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier `LICENSE`.
-
------
-
-Les tâches 17 et 18, qui utilisent `NOT IN` avec des sous-requêtes, sont particulièrement formatrices pour la logique SQL. Si vous avez besoin d'aide pour structurer ces requêtes, n'hésitez pas \! Et bonne chance pour la rédaction de votre article de blog technique \! ✍️
