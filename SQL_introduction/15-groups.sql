@@ -7,4 +7,4 @@ FROM
 GROUP BY 
     score
 ORDER BY 
-    number_of_records DESC;
+    number DESC;
