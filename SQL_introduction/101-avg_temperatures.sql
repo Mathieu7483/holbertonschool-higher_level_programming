@@ -4,10 +4,10 @@ SOURCE temperatures.sql;
 
 SELECT 
     city,
-    AVG(value) * (9/5) + 32 AS avg_temp_f
+    ROUND(AVG(temperature_value), 4) AS avg_temp
 FROM 
     temperatures
 GROUP BY
     city
 ORDER BY
-    avg_temp_f DESC;
+    avg_temp DESC;
