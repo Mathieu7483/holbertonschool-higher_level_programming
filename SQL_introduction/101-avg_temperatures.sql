@@ -4,7 +4,7 @@ SELECT
     city, 
     AVG(temperature) AS average_temperature
 FROM 
-    weather
+    temperatures
 GROUP BY
     city
 ORDER BY
