@@ -4,7 +4,7 @@ SOURCE temperatures.sql;
 
 SELECT 
     city,
-    AVG(value) AS avg_temp
+    ROUND(AVG(value), 4) AS avg_temp
 FROM 
     temperatures
 GROUP BY
