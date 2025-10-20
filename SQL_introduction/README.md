@@ -45,6 +45,12 @@ Chaque fichier est un script SQL conçu pour être exécuté via la ligne de com
   * **`15-groups.sql`** : Liste le nombre d'enregistrements pour chaque score existant, regroupés et triés par nombre décroissant.
   * **`16-no_link.sql`** : Liste tous les enregistrements de `second_table` qui ont une valeur définie pour la colonne `name`, triés par score décroissant.
 
+
+Fichier,Objectif,Concepts Nouveaux
+* **`100-move_to_utf8.sql`** :"Conversion de la base, d'une table et d'un champ spécifique vers l'encodage utf8mb4 pour la prise en charge complète des caractères Unicode.","ALTER DATABASE, ALTER TABLE, CONVERT TO CHARACTER SET"
+* **`101-avg_temperatures.sql`** :"Afficher la température moyenne (Fahrenheit) par ville, triée par température décroissante. (Nécessite l'import du dump de données)","GROUP BY, AVG(), ORDER BY"
+* **`102-top_city.sql`** : Afficher le top 3 des villes avec la température moyenne la plus élevée durant les mois de Juillet et Août.,"WHERE (sur mois), GROUP BY, AVG(), LIMIT"
+* **`103-max_state.sql`** : "Afficher la température maximale pour chaque état, ordonnée par nom d'état.","GROUP BY, MAX()"
 -----
 
 ### 🛠️ **Environnement et Contraintes**
