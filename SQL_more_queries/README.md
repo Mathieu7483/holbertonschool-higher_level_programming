@@ -1,7 +1,6 @@
-
-<p align="center"\>
-<img src="https://www.google.com/search?q=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/SQL%2520n%25C3%25A9on%2520carte%2520%25C3%25A9l%25C3%25A9ctronique%25202.png"\>
-</p\>
+<p align="center">
+<img src=https://github.com/Mathieu7483/Aiko78-Photgraphy/blob/main/img/python%20n%C3%A9eon%20carte%20%C3%A9l%C3%A9ctronique.png>
+</p>
 
 # 0x12. SQL - More queries (MySQL)
 
