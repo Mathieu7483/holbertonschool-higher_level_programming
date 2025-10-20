@@ -10,4 +10,4 @@ FROM
 GROUP BY
     city
 ORDER BY
-    avg_temp DESC;
+    avg_temp ASC;
