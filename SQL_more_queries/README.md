@@ -28,25 +28,62 @@ Ce projet explore des fonctionnalités avancées de **MySQL** et de **SQL**. Il 
 
 Chaque fichier est un script SQL, sauf la dernière tâche de documentation.
 
-#### **Tâches Mandatoires (0 à 16)**
+Absolument Mathieu ! Je vais vous fournir la section "Exercices" pour ce projet, reprenant le format des listes de fichiers et des objectifs.
 
-  * **Gestion des Users & Privilèges** : `0-privileges.sql`, `1-create_user.sql`, `2-create_read_user.sql`.
-  * **Contraintes DDL** : `3-force_name.sql`, `4-never_empty.sql`, `5-unique_id.sql`, `6-states.sql`, `7-cities.sql`.
-  * **Requêtes Multi-Tables** :
-      * **Sous-requêtes** : `8-cities_of_california_subquery.sql`.
-      * **Jointures** : `9-cities_by_state_join.sql`, `10-genre_id_by_show.sql`, `11-genre_id_all_shows.sql`, `12-no_genre.sql`, `13-count_shows_by_genre.sql`, `14-my_genres.sql`, `15-comedy_only.sql`, `16-shows_by_genre.sql`.
+Voici la structure des exercices pour votre projet **0x12. SQL - More queries (MySQL)**.
 
-#### **Tâches Avancées (17 à 21)**
+---
 
-| Fichier | Objectif | Concepts Nouveaux |
+### 🚀 **Exercices et Solutions SQL**
+
+Les solutions pour ce projet sont implémentées dans des scripts SQL autonomes, conçus pour être exécutés directement sur le serveur MySQL.
+
+#### **I. Gestion des Utilisateurs et des Contraintes (DDL)**
+
+Ces exercices se concentrent sur la création d'utilisateurs avec des privilèges spécifiques et la définition de l'intégrité des données à l'aide de contraintes.
+
+| Tâche | Fichier | Objectif |
 | :--- | :--- | :--- |
-| `100-not_my_genres.sql` | Liste tous les genres qui **ne sont pas liés** à la série **"Dexter"**. | Requête combinant **`NOT IN`** et **Sous-requête** pour l'exclusion d'ensembles. |
-| `101-not_a_comedy.sql` | Liste toutes les séries qui **n'appartiennent pas** au genre **"Comedy"**. | Application du pattern `NOT IN` pour exclure les séries ayant un genre spécifique. |
-| `102-rating_shows.sql` | Liste les séries et la **somme totale de leurs ratings**, triées par rating décroissant. | `SUM()`, Jointures multiples, `GROUP BY` pour l'agrégation de données de notation. |
-| `103-rating_genres.sql` | Liste les genres et la **somme totale de leurs ratings**, triés par rating décroissant. | Agrégation de `SUM()` à travers trois tables liées (`tv_genres`, `tv_show_genres`, `tv_show_ratings`). |
-| **Blog Post (Non-SQL)** | Rédaction d'un article de blog expliquant "How Do SQL Database Engines Work?" pour un public non technique, incluant des diagrammes et des exemples. | **Recherche et Vulgarisation Technique.** |
+| **0.** My privileges! | `0-privileges.sql` | Lister les privilèges des utilisateurs **`user_0d_1`** et **`user_0d_2`** sur le serveur local. |
+| **1.** Root user | `1-create_user.sql` | Créer l'utilisateur **`user_0d_1`** avec **tous les privilèges** (`ALL PRIVILEGES`) et le mot de passe **`user_0d_1_pwd`**. |
+| **2.** Read user | `2-create_read_user.sql` | Créer la base **`hbtn_0d_2`** et l'utilisateur **`user_0d_2`** avec le seul privilège **`SELECT`** sur cette base. |
+| **3.** Always a name | `3-force_name.sql` | Créer la table **`force_name`** où la colonne **`name`** est contrainte à **`NOT NULL`**. |
+| **4.** ID can't be null | `4-never_empty.sql` | Créer la table **`id_not_null`** où la colonne **`id`** a une **valeur par défaut de 1** (`DEFAULT 1`). |
+| **5.** Unique ID | `5-unique_id.sql` | Créer la table **`unique_id`** où la colonne **`id`** est contrainte à **`UNIQUE`** et a une valeur par défaut de 1. |
+| **6.** States table | `6-states.sql` | Créer la base **`hbtn_0d_usa`** et la table **`states`** avec un **`PRIMARY KEY`** (`id` auto-incrémenté) et `name` non nul. |
+| **7.** Cities table | `7-cities.sql` | Créer la table **`cities`** qui inclut une **`FOREIGN KEY`** (`state_id`) faisant référence à la colonne `id` de la table `states`. |
 
------
+---
+
+#### **II. Requêtes Multi-Tables (DML)**
+
+Ces exercices se concentrent sur l'extraction et la combinaison de données à partir de plusieurs tables en utilisant les sous-requêtes et les jointures.
+
+| Tâche | Fichier | Objectif | Concepts Clés |
+| :--- | :--- | :--- | :--- |
+| **8.** Cities of California | `8-cities_of_california_subquery.sql` | Lister toutes les villes de Californie en utilisant une **Sous-requête** pour identifier l'ID de l'état. | `SELECT`, `WHERE`, `SUBQUERY` |
+| **9.** Cities by States | `9-cities_by_state_join.sql` | Lister toutes les villes, affichant l'ID de la ville, le nom de la ville et le nom de l'état, en utilisant une **Jointure** (un seul `SELECT`). | `INNER JOIN` (ou jointure implicite), Alias |
+| **10.** Genre ID by show | `10-genre_id_by_show.sql` | Lister les titres des séries qui ont au moins un genre lié. | **`INNER JOIN`** |
+| **11.** Genre ID for all shows | `11-genre_id_all_shows.sql` | Lister tous les titres des séries et leurs ID de genre. Afficher **`NULL`** si la série n'a pas de genre. | **`LEFT JOIN`** |
+| **12.** No genre | `12-no_genre.sql` | Lister les séries qui **n'ont aucun genre lié**. | `LEFT JOIN`, `WHERE IS NULL` |
+| **13.** Number of shows by genre | `13-count_shows_by_genre.sql` | Lister les genres et le **nombre de séries** liées à chacun, triés par nombre décroissant. | `GROUP BY`, `COUNT()`, `ORDER BY` |
+| **14.** My genres | `14-my_genres.sql` | Lister **tous les genres** liés à la série **"Dexter"**. | Jointures multiples, Filtrage `WHERE` |
+| **15.** Only Comedy | `15-comedy_only.sql` | Lister toutes les séries qui sont du genre **"Comedy"**. | Jointures, Filtrage sur le nom du genre. |
+| **16.** List shows and genres | `16-shows_by_genre.sql` | Lister **toutes les séries et tous leurs genres** (`NULL` si pas de genre), triées par titre et nom de genre. | `LEFT JOIN` |
+
+---
+
+#### **III. Tâches Avancées et Analyse (Advanced DML & BI)**
+
+Ces exercices utilisent des techniques avancées pour l'exclusion d'ensembles de données et l'analyse de données de notation (rating).
+
+| Tâche | Fichier | Objectif | Concepts Clés |
+| :--- | :--- | :--- | :--- |
+| **17.** Not my genre | `100-not_my_genres.sql` | Lister les noms des genres qui **ne sont pas liés** à la série **"Dexter"**. (Max 2 `SELECT`) | **`NOT IN`**, Sous-requête d'exclusion |
+| **18.** No Comedy tonight! | `101-not_a_comedy.sql` | Lister les titres des séries qui **n'ont pas le genre "Comedy"**. (Max 2 `SELECT`) | **`NOT IN`**, Sous-requête d'exclusion |
+| **19.** Rotten tomatoes | `102-rating_shows.sql` | Lister les titres des séries et la **somme totale de leurs ratings**, triées par rating décroissant. | **`SUM()`**, Jointures, `GROUP BY` |
+| **20.** Best genre | `103-rating_genres.sql` | Lister les genres et la **somme totale de leurs ratings**, triés par rating décroissant. | Jointures multiples sur 3 tables, **`SUM()`** |
+| **21.** How Do SQL... | **`README.md`** / Blog | Rédiger un article de blog expliquant "How Do SQL Database Engines Work?" pour un public non technique. | **Recherche, Rédaction Technique** |
 
 ### 🛠️ **Environnement et Contraintes**
 
