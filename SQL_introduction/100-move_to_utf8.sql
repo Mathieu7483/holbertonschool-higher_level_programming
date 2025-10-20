@@ -15,7 +15,4 @@ ALTER TABLE
 
 ALTER TABLE 
     first_table 
-    MODIFY name 
-    VARCHAR(256) 
-    COLLATE utf8mb4_unicode_ci 
-    DEFAULT NULL;
+    MODIFY name VARCHAR(256);
