@@ -3,7 +3,7 @@ SELECT id, name
 FROM cities
 WHERE states_id = (
     SELECT id
-    FROM states
+    FROM state
     WHERE name = 'California'
 );
 ORDER BY id ASC;
