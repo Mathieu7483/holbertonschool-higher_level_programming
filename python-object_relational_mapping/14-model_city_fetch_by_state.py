@@ -21,13 +21,13 @@ if __name__ == "__main__":
     # Create a Session
     session = Session()
     # Query all City objects, joined with State to get state names
-    cities = (session.query(City, State)
-              .join(State, City.state_id == State.id)
+    cities = (session.query(State, City)
+              .join(City, State.id == City.state_id)
               .order_by(City.id)
               .all()
               )
     # Print each City object with its corresponding State name
     for city, state in cities:
-        print(f"{city.id}: {city.name} -> {state.name}")
+        print(f"{state.name}: ({city.id}) {city.name}")
     # Close the session
     session.close()
