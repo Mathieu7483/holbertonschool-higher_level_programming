@@ -17,14 +17,14 @@ if __name__ == "__main__":
     # Create a cursor object
     cursor = db.cursor()
     # Execute the SQL query to fetch cities of the specified state
-    cursor.execute( 
+    cursor.execute(
         "SELECT cities.name "
         "FROM cities "
         "JOIN states ON cities.state_id = states.id "
         "WHERE BINARY states.name = %s "
         "ORDER BY cities.id ASC",
         (sys.argv[4],)
-    )       
+    )
     # Fetch all results
     query_rows = cursor.fetchall()
     # Print each row (city)
