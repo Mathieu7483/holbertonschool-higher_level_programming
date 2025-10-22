@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # Create a cursor object
     cursor = db.cursor()
     # Execute the SQL query to fetch all states ordered by id
-    query_rows = cursor.execute("SELECT * FROM states ORDER BY id ASC")
+    cursor.execute("SELECT * FROM states ORDER BY id ASC")
     # Fetch all results
     query_rows = cursor.fetchall()
     # Print each row (state)
