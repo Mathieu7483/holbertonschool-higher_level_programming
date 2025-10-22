@@ -16,14 +16,14 @@ if __name__ == "__main__":
         db=sys.argv[3]
         )
     # Create a cursor object
-    cur = db.cursor()
+    cursor = db.cursor()
     # Execute the SQL query to fetch all states ordered by id
-    query_rows = cur.execute("SELECT * FROM states ORDER BY id ASC")
+    query_rows = cursor.execute("SELECT * FROM states ORDER BY id ASC")
     # Fetch all results
-    # query_rows = cur.fetchall()
+    query_rows = cursor.fetchall()
     # Print each row (state)
     for row in query_rows:
         print(row)
     # Close the cursor and database connection
-    cur.close()
+    cursor.close()
     db.close()
