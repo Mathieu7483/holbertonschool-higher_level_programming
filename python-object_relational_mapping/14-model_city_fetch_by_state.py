@@ -14,8 +14,6 @@ if __name__ == "__main__":
         'mysql+mysqldb://{}:{}@localhost/{}'
         .format(sys.argv[1], sys.argv[2], sys.argv[3])
     )
-    # Create all tables in the database (if they don't exist)
-    Base.metadata.create_all(engine)
     # Create a configured "Session" class
     Session = sessionmaker(bind=engine)
     # Create a Session
