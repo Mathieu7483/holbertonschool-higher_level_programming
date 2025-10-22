@@ -28,8 +28,8 @@ if __name__ == "__main__":
     # Fetch all results
     query_rows = cursor.fetchall()
     # Print each row (city)
-    for row in query_rows:
-        print(", ".join(row))
+    city_names = [row[0] for row in query_rows]
+    print(", ".join(city_names))
     # Close the cursor and database connection
     cursor.close()
     db.close()
