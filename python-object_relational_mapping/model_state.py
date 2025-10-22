@@ -3,6 +3,7 @@
 """
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.ext.declarative import declarative_base
+# create the base class for the class definitions
 Base = declarative_base()
 
 
