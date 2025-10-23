@@ -6,13 +6,13 @@
 
 -----
 
-### 📝 **Description**
+# 📝 **Description**
 
 Ce projet explore des fonctionnalités avancées de **MySQL** et de **SQL**. Il se concentre sur la gestion des utilisateurs et des privilèges, l'application de contraintes de schéma (Clés primaires/étrangères, Not Null, Unique), et surtout, sur la construction de requêtes complexes impliquant des **Jointures**, des **Sous-requêtes** et des opérations logiques inverses (`NOT IN`). Les tâches avancées permettent d'effectuer des analyses de données (rating) et de comprendre l'architecture des moteurs de bases de données.
 
 -----
 
-### 📚 **Concepts Clés**
+# 📚 **Concepts Clés**
 
   * **Gestion des Privilèges** : `CREATE USER` et `GRANT`.
   * **Contraintes DDL** : `PRIMARY KEY`, `FOREIGN KEY`, `NOT NULL`, `UNIQUE`.
@@ -23,7 +23,7 @@ Ce projet explore des fonctionnalités avancées de **MySQL** et de **SQL**. Il 
 
 -----
 
-### 📂 **Contenu de l'exercice**
+# 📂 **Contenu de l'exercice**
 
 Chaque fichier est un script SQL, sauf la dernière tâche de documentation.
 
@@ -33,7 +33,7 @@ Voici la structure des exercices pour votre projet **0x12. SQL - More queries (M
 
 ---
 
-### 🚀 **Exercices et Solutions SQL**
+# 🚀 **Exercices et Solutions SQL**
 
 Les solutions pour ce projet sont implémentées dans des scripts SQL autonomes, conçus pour être exécutés directement sur le serveur MySQL.
 
@@ -84,7 +84,7 @@ Ces exercices utilisent des techniques avancées pour l'exclusion d'ensembles de
 | **20.** Best genre | [103-rating_genres.sql](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/SQL_more_queries/103-rating_genres.sql) | Lister les genres et la **somme totale de leurs ratings**, triés par rating décroissant. | Jointures multiples sur 3 tables, **`SUM()`** |
 | **21.** How Do SQL... | **`README.md`** / Blog | Rédiger un article de blog expliquant "How Do SQL Database Engines Work?" pour un public non technique. | **Recherche, Rédaction Technique** |
 
-### 🛠️ **Environnement et Contraintes**
+# 🛠️ **Environnement et Contraintes**
 
   * **SGBD** : MySQL 8.0
   * **OS** : Ubuntu 20.04 LTS
@@ -93,12 +93,12 @@ Ces exercices utilisent des techniques avancées pour l'exclusion d'ensembles de
 
 -----
 
-### ✍️ **Auteur**
+# ✍️ **Auteur**
 
 [Mathieu GODALIER](https://www.google.com/search?q=https://github.com/Mathieu7483/holbertonschool-higher_level_programming/tree/main/SQL_more_queries) - Élève en programmation à la Holberton School
 
 -----
 
-### ⚖️ **Licence**
+# ⚖️ **Licence**
 
 Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier `LICENSE`.
