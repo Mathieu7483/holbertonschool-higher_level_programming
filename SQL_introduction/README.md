@@ -53,7 +53,7 @@ Fichier,Objectif,Concepts Nouveaux
 * [103-max_state.sql](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/SQL_introduction/103-max_state.sql) : "Afficher la température maximale pour chaque état, ordonnée par nom d'état.","GROUP BY, MAX()"
 -----
 
-### 🛠️ **Environnement et Contraintes**
+# 🛠️ **Environnement et Contraintes**
 
   * **SGBD** : MySQL 8.0
   * **OS** : Ubuntu 22.04 LTS
