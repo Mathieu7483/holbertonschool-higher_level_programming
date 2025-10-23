@@ -112,5 +112,11 @@ Ce projet nécessite l'installation des modules suivants dans votre environnemen
 
 # ✍️ **Auteur**
 
-[Mathieu GODALIER](https://www.google.com/search?q=https://github.com/Mathieu7483/holbertonschool-higher_level_programming/tree/main/python-object_relational_mapping) - Élève en programmation.
+[Mathieu GODALIER](https://www.google.com/search?q=https://github.com/Mathieu7483/holbertonschool-higher_level_programming/tree/main/SQL_more_queries) - Élève en programmation à la Holberton School
+
+-----
+
+# ⚖️ **Licence**
+
+Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier `LICENSE`.
 
