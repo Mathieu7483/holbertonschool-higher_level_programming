@@ -6,13 +6,13 @@
 
 -----
 
-### 📝 **Description**
+# 📝 **Description**
 
 Ce projet d'introduction a pour objectif de vous familiariser avec les fondamentaux des **bases de données relationnelles** et du langage **SQL (Structured Query Language)**, en utilisant le SGBD **MySQL**. Les tâches couvrent les concepts de base pour la **définition des données (DDL)**, incluant la création/suppression de bases et de tables, ainsi que la **manipulation des données (DML)**, incluant l'insertion, la sélection, la mise à jour et la suppression d'enregistrements.
 
 -----
 
-### 📚 **Concepts Clés**
+# 📚 **Concepts Clés**
 
   * **Bases de Données Relationnelles** : Comprendre ce qu'est une base de données et pourquoi le modèle relationnel est important.
   * **SQL** : Maîtriser les commandes de base pour interagir avec une base de données.
@@ -23,7 +23,7 @@ Ce projet d'introduction a pour objectif de vous familiariser avec les fondament
 
 -----
 
-### 📂 **Contenu de l'exercice**
+# 📂 **Contenu de l'exercice**
 
 Chaque fichier est un script SQL conçu pour être exécuté via la ligne de commande (`mysql -u... < file.sql`).
 
@@ -64,12 +64,12 @@ Fichier,Objectif,Concepts Nouveaux
 
 -----
 
-### ✍️ **Auteur**
+# ✍️ **Auteur**
 
 [Mathieu GODALIER](https://github.com/Mathieu7483) - Élève en programmation à la Holberton School
 
 -----
 
-### ⚖️ **Licence**
+# ⚖️ **Licence**
 
 Ce projet est sous licence MIT. Pour plus de détails, consultez le fichier `LICENSE`.
