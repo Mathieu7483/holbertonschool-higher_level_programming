@@ -1,10 +1,10 @@
 #!/usr/bin/node
-const [, , arg1] = process.argv;
-
-function fact(n) {
-    if (n === 0 || n === 1) {
-        return 1;
-    }
-    return n * fact(n - 1);
+function fact (n) {
+  if (isNaN(n) || n === 1) {
+    return 1;
+  }
+  return n * fact(n - 1);
 }
-console.log(fact(arg1));
+const [, , argValue] = process.argv;
+const number = parseInt(argValue);
+console.log(fact(number));
