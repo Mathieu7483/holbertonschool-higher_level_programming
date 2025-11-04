@@ -3,5 +3,5 @@ const firstargument = process.argv[2]
 if (!firstargument) {
   console.log('No argument');
 }else {
-  console.log('Arguments found');
+  console.log('firstargument');
 }
