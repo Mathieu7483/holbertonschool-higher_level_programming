@@ -5,5 +5,5 @@ const userinput = Arguments.slice(2);
 if (!userinput[0]) {
   console.log('No argument');
 } else {
-  console.log(userinput);
+  console.log(userinput.toString());
 }
