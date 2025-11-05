@@ -1,8 +1,8 @@
 #!/usr/bin/node
-const args = process.argv.slice(2);
-if (args.lenght < 2) {
+const args = process.argv.slice(2).map(x => parseInt(x));
+if (args.length < 2 || isNaN(args[0]) || isNaN(args[1])) {
   console.log(0);
 } else {
-  args.sort((a, b) => parseInt(b) - parseInt(a));
+  args.sort((a, b) => b - a);
   console.log(args[1]);
 }
