@@ -1,9 +1,8 @@
 #!/usr/bin/node
-
-document.addEventListener('DOMContentLoaded', () => {
-  fetch('https://hellosalut.stefanbohacek.dev/?lang=fr')
+document.addEventListener('DOMContentLoaded', function () {
+  fetch('https://hellosalut.stefanbohacek.com/?lang=fr')
     .then(response => response.json())
     .then(data => {
-      idElement.textContent = data.hello;
+      document.querySelector('#hello').textContent = data.hello;
     });
 });
