@@ -13,7 +13,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (addItemButton && myList) {
     addItemButton.addEventListener('click', addItem);
-  } else {
-    console.error("Elements 'add_item' ou 'my_list' not found.");
   }
 });
