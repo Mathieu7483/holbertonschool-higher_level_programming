@@ -1,8 +1,4 @@
 #!/usr/bin/node
-const redHeader = document.getElementById('red_header');
-const header = document.querySelector('header');
-
-redHeader.addEventListener('click', function () {
-  header.style.color = '#FF0000';
+document.querySelector('#red_header').addEventListener('click', function () {
+  document.querySelector('header').classList = 'red';
 });
-header.classList.add('red');
