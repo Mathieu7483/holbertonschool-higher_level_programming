@@ -1,6 +1,7 @@
 #!/usr/bin/node
-document.querySelector('#update_header').addEventListener('click', function () {
-  const updateHeader = document.createElement('header');
-  newHeader.textContent = 'New Header!!!';
-  document.querySelector('.update_header').appendChild(updateHeader);
+const updateElement = document.querySelector('#update_header');
+const headerElement = document.querySelector('header');
+
+updateElement.addEventListener('click', () => {
+  headerElement.textContent = 'New Header!!!';
 });
