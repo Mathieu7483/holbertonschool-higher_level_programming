@@ -15,13 +15,13 @@ def generate_invitations(template, attendees):
         print("No data provided, no output files generated.")
         return
 
-    for index in enumerate(attendees, start=1):
+    for index, attendee_data in enumerate(attendees, start=1):
         required_keys = ["name", "event_title", "event_date", "event_location"]
 
         invitation_text = template
 
         for placeholder in required_keys:
-            value = index[1].get(placeholder, "N/A")
+            value = attendee_data.get(placeholder)
             if value is None or value == "":
                 value = "N/A"
 
