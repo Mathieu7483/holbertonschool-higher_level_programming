@@ -22,15 +22,15 @@ Chaque fichier JavaScript (`X-script.js`) met en œuvre une fonctionnalité spé
 
 | Fichier | Objectif Principal | Concepts Clés |
 | :--- | :--- | :--- |
-| **`0-script.js`** | Changer la couleur du texte de l'en-tête. | `document.querySelector()`, `element.style.color` |
-| **`1-script.js`** | Changer la couleur de l'en-tête au clic. | `element.addEventListener('click', ...)` |
-| **`2-script.js`** | Ajouter une classe CSS au clic. | `element.classList.add()` |
-| **`3-script.js`** | Basculer entre deux classes CSS (`red`/`green`). | `element.classList.toggle()`, Logique conditionnelle |
-| **`4-script.js`** | Ajouter un nouvel élément `<li>` à une liste. | `document.createElement()`, `element.appendChild()` |
-| **`5-script.js`** | Mettre à jour le contenu textuel de l'en-tête. | `element.textContent` (ou `element.innerHTML`) |
-| **`6-script.js`** | Récupérer le nom d'un personnage Star Wars et l'afficher. | **`Fetch API`**, `Promises`, `JSON parsing` |
-| **`7-script.js`** | Lister les titres de tous les films Star Wars. | `Fetch API`, Itération sur les résultats, Injection `<li>` |
-| **`8-script.js`** | Récupérer une traduction de "Hello" (en français) et l'afficher. | `Fetch API` pour API tierce, Exécution de script dans `<head>` |
+| **[0-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/0-script.js)** | Changer la couleur du texte de l'en-tête. | `document.querySelector()`, `element.style.color` |
+| **[1-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/1-script.js)** | Changer la couleur de l'en-tête au clic. | `element.addEventListener('click', ...)` |
+| **[2-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/2-script.js)** | Ajouter une classe CSS au clic. | `element.classList.add()` |
+| **[3-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/3-script.js)** | Basculer entre deux classes CSS (`red`/`green`). | `element.classList.toggle()`, Logique conditionnelle |
+| **[4-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/4-script.js)** | Ajouter un nouvel élément `<li>` à une liste. | `document.createElement()`, `element.appendChild()` |
+| **[5-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/5-script.js)** | Mettre à jour le contenu textuel de l'en-tête. | `element.textContent` (ou `element.innerHTML`) |
+| **[6-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/6-script.js)** | Récupérer le nom d'un personnage Star Wars et l'afficher. | **`Fetch API`**, `Promises`, `JSON parsing` |
+| **[7-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/7-script.js)** | Lister les titres de tous les films Star Wars. | `Fetch API`, Itération sur les résultats, Injection `<li>` |
+| **[8-script.js](https://github.com/Mathieu7483/holbertonschool-higher_level_programming/blob/main/javascript-dom_manipulation/8-script.js)** | Récupérer une traduction de "Hello" (en français) et l'afficher. | `Fetch API` pour API tierce, Exécution de script dans `<head>` |
 
 -----
 
