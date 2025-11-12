@@ -4,25 +4,35 @@
     <meta charset="UTF-8">
     <title>Product Display</title>
 </head>
-<body>
+  <body>
   {% include 'header.html' %}
-<table>
-  <tr> %products%
-    <th>product ID</th>
-    <th>Product Name</th>
-    <th>Category</th>
-    <th>Price</th>
-  </tr>
+    {% if error %}
+        <h1>Error: {{ error }}</h1>
+        <p>Please check the source parameter.</p>
+    {% endif %}
+    {# ---------------------- #}
+
+    {% if products %}
+    <table>
+      <tr> %products%
+        <th>product ID</th>
+        <th>Product Name</th>
+        <th>Category</th>
+        <th>Price</th>
+      </tr>
 {% for product in products %}
-  <tr>
-    <td>{{ product.id }}</td>
-    <td>{{ product.name }}</td>
-    <td>{{ product.category }}</td>
-    <td>{{ product.price }}</td>
-  </tr>
+      <tr>
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>{{ product.category }}</td>
+        <td>{{ product.price }}</td>
+      </tr>
 {% endfor %}
-  <tr>
-</table>
-{% include 'footer.html' %}
-</body>
+    </table>
+{% elif not error %}
+        <p>No products found for the specified source or IDs.</p>
+    {% endif %}
+
+    {% include 'footer.html' %}
+  </body>
 </html>
