@@ -40,8 +40,9 @@ def products():
 
     elif source == 'csv':
         with open('products.csv', 'r', encoding='utf-8') as csvFile:
-            data = csv.DictReader(csvFile)
-            
+            csv_reader = csv.DictReader(csvFile)
+            data = list(csv_reader)
+
     else:
         return render_template('product_display.html', error="Wrong source")
     
