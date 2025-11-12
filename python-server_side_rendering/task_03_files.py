@@ -44,19 +44,12 @@ def products():
             data = list(csv_reader)
 
     else:
-        return render_template('product_display.html', error="Wrong source")
+        return render_template('product_display.html', error='Wrong source')
     
     if productIds:
-        target_ids = productIds.split(',')
-        
-        filtered_data = []
-        for item in data:
-            product_id_str = str(item.get('id'))
-            
-            if product_id_str in target_ids:
-                filtered_data.append(item)
-        
-        data = filtered_data
+        data = [item for item in data if str(item.get('id') or item['id']) == str(productIds)]
+        if not data:
+            return render_template('product_display.html', error='Product not found')
         
     return render_template('product_display.html', products=data, source=source)  
         
