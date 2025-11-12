@@ -21,31 +21,6 @@ def close_connection_db(exception):
     if db is not None:
         db.close()
 
-def init_db():
-    with app.app_context():
-        db = get_db()
-        cursor = db.cursor()
-        
-        cursor.execute('DROP TABLE IF EXISTS Products') 
-        
-        cursor.execute('''
-            CREATE TABLE Products (
-                id INTEGER PRIMARY KEY,
-                name TEXT NOT NULL,
-                category TEXT NOT NULL,
-                price REAL NOT NULL
-            )
-        ''')
-        
-        cursor.execute('''
-            INSERT INTO Products (id, name, category, price)
-            VALUES
-            (1, 'Laptop', 'Electronics', 799.99),
-            (2, 'Coffee Mug', 'Home Goods', 15.99)
-        ''')
-        
-        db.commit()
-
 
 @app.route('/')
 def home():
@@ -103,5 +78,4 @@ def products():
 
 
 if __name__ == '__main__':
-    init_db()
     app.run(debug=True, port=5000)
