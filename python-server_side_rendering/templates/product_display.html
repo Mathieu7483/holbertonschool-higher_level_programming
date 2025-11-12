@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Items List - My Flask App</title>
+    <title>Product Display</title>
 </head>
 <body>
   {% include 'header.html' %}
@@ -21,7 +21,6 @@
     <td>{{ product.price }}</td>
   </tr>
 {% endfor %}
-{% if products|length == 0 %}
   <tr>
 </table>
 {% endif %}
