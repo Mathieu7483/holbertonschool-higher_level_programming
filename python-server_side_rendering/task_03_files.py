@@ -31,7 +31,7 @@ def items():
 @app.route('/products')
 def products():
     source = request.args.get('source')
-    productIds = request.args.get('productIds')
+    productIds = request.args.get('Id')
     data = []
 
     if source == 'json':
