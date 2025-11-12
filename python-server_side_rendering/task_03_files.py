@@ -1,6 +1,8 @@
 #!/usr/bin/python3
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 import json
+import csv
+
 
 app = Flask(__name__)
 
@@ -23,28 +25,31 @@ def items():
         items_list = data.get('items', [])
     return render_template('items.html', items=items_list)
 
+
+
+
 @app.route('/products')
-def products(csv_filename='products.csv' , json_filename='products.json'):
-    try:
-        data_list = []
+def products():
+    source = request.args.get('source')
+    productIds = request.args.get('productIds')
+    data = []
+
+    if source == 'json':
+        with open('products.json', 'r') as jsonFile:
+            data = json.load(jsonFile)
+
+    elif source == 'csv':
+        with open('products.csv', 'r') as csvFile:
+            data = csv.DictReader(csvFile)
+            data = list(data)
+    else:
+        return render_template('product_display.html', error="Wrong source")
+    
+    if productIds:
+        data = [item for item in data if item['id'] in productIds.split(',')]
+        if not data:
+            return render_template('product_display.html', error="No products found")   
         
-        with open(products.csv, 'r', encoding='utf-8') as products.csv:
-            csv_reader = csv_filename.DictReader(products.csv)
-
-            for row in csv_reader:
-                data_list.append(row)
-
-        with open('products.json', 'w', encoding='utf-8') as json_filename:
-            json.dump(data_list, json_filename)
-
-        return render_template('products.html', products=data_list)
-
-    except FileNotFoundError:
-        print("File not found")
-        return False
-    except Exception as e:
-        print("An error occurred: {}".format(e))
-        return False
-
+        
 if __name__ == '__main__':
-    app.run(debug=True, port=5000)
+   app.run(debug=True, port=5000)
