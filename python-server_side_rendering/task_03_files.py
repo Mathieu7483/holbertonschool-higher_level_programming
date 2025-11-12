@@ -39,16 +39,25 @@ def products():
             data = json.load(jsonFile)
 
     elif source == 'csv':
-        with open('products.csv', 'r') as csvFile:
+        with open('products.csv', 'r', encoding='utf-8') as csvFile:
             data = csv.DictReader(csvFile)
-            data = list(data)
+            
     else:
         return render_template('product_display.html', error="Wrong source")
     
     if productIds:
-        data = [item for item in data if item['id'] in productIds.split(',')]
-        if not data:
-            return render_template('product_display.html', error="No products found")   
+        target_ids = productIds.split(',')
+        
+        filtered_data = []
+        for item in data:
+            product_id_str = str(item.get('id'))
+            
+            if product_id_str in target_ids:
+                filtered_data.append(item)
+        
+        data = filtered_data
+        
+    return render_template('product_display.html', products=data, source=source)  
         
         
 if __name__ == '__main__':
