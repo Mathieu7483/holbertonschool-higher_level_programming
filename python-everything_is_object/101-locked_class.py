@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-class locked_class():
+class LockedClass():
     __slots__ = ['first_name']
